@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.words{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.words .sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words .sort div{
+    margin:  10px;
+    border: 2px solid #000;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #7aedc1;
+    cursor: pointer;
+}
+.words .image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+.words .image p{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.words .gameOver{
+    margin-top: 50px;
+    font-size: 2rem;
+    display: none;
+}
