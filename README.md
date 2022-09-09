@@ -1,2 +1,2 @@
 # Javascript-hang-man-
-hangman game - guess the words
+Save a person's life by guessing the words
